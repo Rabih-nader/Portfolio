@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body {
+  background-color: #000000f7; /* Set the background color */
+  /* background-image: url('./Assets/depositphotos_102748174-stock-photo-grunge-background-white-brick-wall.jpeg'); Set the background image */
+  background-repeat: no-repeat; /* Specify the background image repeat behavior */
+  background-size: cover; /* Adjust how the background image is sized */
+  background-blend-mode: overlay; /* Optional: Adjust the blending mode */
+
+}
+

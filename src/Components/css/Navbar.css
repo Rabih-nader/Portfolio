@@ -1,0 +1,32 @@
+.header {
+  background-color: #000000;
+  padding: 5px;
+  border-bottom: solid 5px #2FBBCE;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.nav-item {
+  padding: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff !important;
+  font-weight: bolder;
+  transition: color 0.3s ease-in-out; /* Add transition for smooth color change */
+  cursor: pointer;
+}
+
+.nav-link:hover{
+  color: #2FBBCE !important; /* Change color on hover and focus */
+}
