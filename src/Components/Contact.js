@@ -9,8 +9,9 @@ function Contact() {
     <section id="contact" style={{ marginTop: '100px' }}>
       <div className="contact-container">
         <div className="contact-header">
-          <h2>Contact</h2>
-          <p>Feel free to get in touch with me</p>
+          {/* <h2>Contact</h2>
+          <p>Feel free to get in touch with me</p> */}
+          <h2>Feel free to get in touch with me</h2>
         </div>
 
         <div className="contact-content">

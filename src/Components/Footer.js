@@ -11,7 +11,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
+        <p>&copy; 2023 Rabih Nader. All rights reserved.</p>
         <button className="scroll-button" onClick={scrollToTop}>
           <FontAwesomeIcon icon={faAngleUp} />
         </button>

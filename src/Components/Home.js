@@ -10,7 +10,7 @@ function Home() {
         </div>
         <div className="right-div">
           <p>RABIH NADER <br/>
-              FRONT-END DEVELOPER
+              SOFTWARE DEVELOPER
           </p>
         </div>
       </div>

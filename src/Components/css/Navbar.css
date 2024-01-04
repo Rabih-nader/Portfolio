@@ -1,7 +1,9 @@
 .header {
   background-color: #000000;
   padding: 5px;
-  border-bottom: solid 5px #2FBBCE;
+  border-bottom: 5px solid ;
+  border-image: linear-gradient(to right, #ffffff, #f8bf44, #2FBBCE, #2FBBCE);
+  border-image-slice: 1;
 }
 
 .navbar {
@@ -30,3 +32,9 @@
 .nav-link:hover{
   color: #2FBBCE !important; /* Change color on hover and focus */
 }
+/* 
+@media (max-width: 768px) {
+
+
+  
+} */

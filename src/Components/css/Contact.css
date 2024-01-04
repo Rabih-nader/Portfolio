@@ -2,7 +2,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border-top: 5px solid #2FBBCE;
+  border-top: 5px solid;
+  border-image: linear-gradient(to right, #ffffff, #f8bf44, #2FBBCE, #2FBBCE);
+  border-image-slice: 1;
   /* border-radius: 5px; */
   margin: 100px;
   margin-top: 10px !important;

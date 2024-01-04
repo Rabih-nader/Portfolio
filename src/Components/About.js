@@ -18,13 +18,10 @@ function About() {
       <div className="about-content">
         <div style={{ width: '50%' }}>
           <h2 style={{ paddingBottom: '20px' }}>About Me</h2>
-          <p style={{ paddingLeft: '12px', textAlign: "justify" }}>
-            
-          Rabih Nader is a results-driven Software Developer with a proven track record in web application development using ASP.net, C#, and LINQ, complemented by proficiency in HTML5, CSS3, and Bootstrap for responsive design.<br />
-          His design skills extend to Adobe Photoshop and Figma, enhancing his ability to create visually appealing interfaces. <br />
-          Collaborative by nature, Rabih is adept at utilizing GitHub for effective version control and teamwork. His technical support background, coupled with a Master's degree in Computer Science and a Postgraduate qualification in Mobile Application Development, reflects his commitment to holistic technological solutions.<br />
-          With strong analytical, communication, and organizational skills, Rabih excels in both individual and team settings, making him a valuable asset in creating innovative and user-friendly software solutions.
-
+          <p style={{ paddingLeft: '30px', textAlign: "justify" }}>  
+          I am a results-driven Software Developer with a proven track record in web application development using ASP.net, C#, and LINQ. My proficiency extends to HTML5, CSS3, Bootstrap for responsive design, as well as ReactJS and JavaScript to enhance interactive and dynamic features. I also possess design skills in Adobe Photoshop and Figma, allowing me to create visually appealing interfaces. <br /> <br />
+          Collaboration comes naturally to me, and I am adept at utilizing GitHub for effective version control and teamwork. My background in technical support, coupled with a Master's degree in Computer Science and a Postgraduate qualification in Mobile Application Development, reflects my commitment to holistic technological solutions.<br /> <br />
+          I excel in both individual and team settings, owing to my strong analytical, communication, and organizational skills. These qualities make me a valuable asset in creating innovative and user-friendly software solutions.<br /> <br />
           </p>
         </div>
         <div className="container">

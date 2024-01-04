@@ -5,7 +5,9 @@
   background-color: black;
   padding: 10px;
   position: relative;
-  border-top: solid 5px #2FBBCE;
+  border-top: 5px solid;
+  border-image: linear-gradient(to right, #ffffff, #f8bf44, #2FBBCE, #2FBBCE);
+  border-image-slice: 1;
 }
 
 .footer-content {

@@ -2,8 +2,10 @@
         display: flex;
         justify-content: center;
         border-top: 5px solid ;
+        border-image: linear-gradient(to right, #ffffff, #f8bf44, #2FBBCE, #2FBBCE);
+        border-image-slice: 1;
         /* border-radius: 5px; */
-        border-color: #2FBBCE;  
+        /* border-color: #2FBBCE;   */
         margin: 100px;
         box-shadow: 2px 6px 6px rgba(148, 148, 148);
         background-color: #ffffff;
