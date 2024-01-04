@@ -6,7 +6,7 @@
   padding: 10px;
   position: relative;
   border-top: 5px solid;
-  border-image: linear-gradient(to right, #ffffff, #f8bf44, #2FBBCE, #2FBBCE);
+  border-image: linear-gradient(to right, #000000, #f8bf44, #2FBBCE, #ffffff);
   border-image-slice: 1;
 }
 
@@ -25,11 +25,12 @@
   width: 50px;
   height: 50px;
   background-color: #000000;
-  color: #2FBBCE;
-  border-color: #2FBBCE;
+  color: #ffffff;
+  border-color: #ffffff;
   border-style: solid;
   border-bottom: none;
-  border-radius: 0%;
+  border-top-right-radius: 30%;
+  border-top-left-radius: 30%;
   /* border-top-left-radius: 15%;
   border-top-right-radius: 15%; */
   cursor: pointer;
@@ -40,6 +41,6 @@
 }
 
 .scroll-button:hover {
-  background-color: #2FBBCE;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
 }

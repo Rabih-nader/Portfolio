@@ -16,7 +16,7 @@ function Contact() {
 
         <div className="contact-content">
           <div className="contact-form">
-            <div className="shadow">
+            {/* <div className="shadow"> */}
               <div className="text-box">
                 <input type="text" placeholder="Full Name" id="name" />
                 <input type="email" placeholder="Email" id="email" />
@@ -28,7 +28,7 @@ function Contact() {
                 />
                 <button className="button-submit">Submit</button>
               </div>
-            </div>
+            {/* </div> */}
           </div>
 
           <div className="contact-info">

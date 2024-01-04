@@ -1,3 +1,5 @@
+// projects.js
+
 import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -24,18 +26,6 @@ const projectImages = [
     image: projectImage3,
     link: 'https://example.com/project3',
   },
-  {
-    image: projectImage4,
-    link: 'https://example.com/project4',
-  },
-  {
-    image: projectImage5,
-    link: 'https://example.com/project5',
-  },
-  {
-    image: projectImage6,
-    link: 'https://example.com/project6',
-  },
   // Add more images and links as needed
 ];
 
@@ -43,27 +33,35 @@ const sliderSettings = {
   dots: true,
   infinite: true,
   speed: 500,
-  slidesToShow: 2,   // Display 3 slides at a time
-  slidesToScroll: 2, // Scroll 3 slides at a time
+  slidesToShow: 2,   // Display 1 slide at a time
+  slidesToScroll: 2, // Scroll 1 slide at a time
+
+  responsive: [
+    {
+      breakpoint: 768, // Adjust breakpoint as needed
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
 };
 
 function Projects() {
   return (
-    <section style={{marginTop:'100px'}} id='projects'>
-      
-
-      <div className="slider-container" >
-      <h2 style={{paddingTop:'15px'}}>Projects</h2>
-          <Slider {...sliderSettings}>
-            {projectImages.map((project, index) => (
-              <div key={index}>
-                <a href={project.link} target="_blank" rel="noopener noreferrer">
-                  <img className='carousel-img' src={project.image} alt={`Project ${index + 1}`} />
-                </a>
-              </div>
-            ))}
-          </Slider>
-        </div>
+    <section id='projects'>
+      <div className="slider-container">
+        <h2>Projects</h2>
+        <Slider {...sliderSettings}>
+          {projectImages.map((project, index) => (
+            <div key={index}>
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <img className='carousel-img' src={project.image} alt={`Project ${index + 1}`} />
+              </a>
+            </div>
+          ))}
+        </Slider>
+      </div>
     </section>
   );
 }
