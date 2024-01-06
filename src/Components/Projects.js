@@ -9,9 +9,6 @@ import './css/Projects.css';
 import projectImage1 from '../Assets/DUKO-trasport-inc---web.jpg';
 import projectImage2 from '../Assets/2b6152154020263.Y3JvcCwzNDUxLDI3MDAsMTExOSww.png';
 import projectImage3 from '../Assets/kfpb47vavqu61.jpeg';
-import projectImage4 from '../Assets/portfolio_thumbnails_mock_up_sm.webp';
-import projectImage5 from '../Assets/Screenshot-2021-10-11-at-12.11.56.png';
-import projectImage6 from '../Assets/Screenshot-2021-12-06-at-11.30.03.png';
 
 const projectImages = [
   {
